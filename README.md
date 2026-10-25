@@ -1,7 +1,7 @@
 ## Installation
-Unzip to YourFoundryInstall/Data/modules
-Enable reactions-remembered in your world
-or
+Unzip to YourFoundryInstall/Data/modules  
+Enable reactions-remembered in your world  
+or  
 Install via the module.json directly in Foundry.
 
 ## Dependencies
@@ -23,16 +23,14 @@ Custom D&D5e is optional, Occupied is added to its Conditions list automatically
 - If your players have abilities that grant extra reactions, this module does not automate this, but it could be done by configuring the feature to remove Occupied, or hooking into this module to intercept the application, if desired. 
 
 ## Hooks
-reactionsRemembered.preApply (actor, combatant, trigger) - return false to stop Occupied being applied.
+reactionsRemembered.preApply (actor, combatant, trigger) - return false to stop Occupied being applied.  
 reactionsRemembered.applied (actor, combatant, trigger) - fires after application
 
 ## Contact
 email: baranome.kimiko@gmail.com
-For bug reports & suggestions.
-For free upgrades to minor versions.
 
 ## Credits
-Dependency D&D5e - https://foundryvtt.com/packages/dnd5e
+Dependency D&D5e - https://foundryvtt.com/packages/dnd5e  
 Compatible with Custom D&D 5e - https://foundryvtt.com/packages/custom-dnd5e
 
 ## AI Disclaimer
