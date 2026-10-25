@@ -1,0 +1,56 @@
+{
+  "id": "reactions-remembered",
+  "title": "Reactions Remembered",
+  "description": "Track spent reactions with an Occupied condition, configurable to be fully automated.",
+  "version": "1.2",
+  "library": false,
+  "compatibility": {
+    "minimum": 14,
+    "verified": 14,
+    "maximum": 14
+  },
+  "authors": [
+    {
+      "name": "Bara",
+      "email": "baranome.kimiko@gmail.com",
+      "url": "https://www.wide-studio.co.uk/store.html?type=Digital"
+    }
+  ],
+  "socket": false,
+  "relationships": {
+    "requires": [],
+    "systems": [
+      {
+        "id": "dnd5e",
+        "type": "system",
+        "compatibility": {
+          "minimum": "5.2.0"
+        }
+      }
+    ]
+  },
+  "esmodules": [
+    "module.js"
+  ],
+  "scripts": [],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "languages/en.json"
+    }
+  ],
+  "packs": [
+    {
+      "name": "rules",
+      "label": "Reactions Remembered Rules",
+      "path": "packs/rules",
+      "type": "JournalEntry",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    }
+  ],
+  "readme": "README.md"
+}

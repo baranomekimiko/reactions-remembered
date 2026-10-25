@@ -1,0 +1,15 @@
+{
+  "OCCUPIED.Status": "Occupied",
+  "OCCUPIED.Keybind": "Toggle Occupied",
+  "OCCUPIED.Warning": "This actor has already spent its reaction for this round.",
+  "OCCUPIED.WarningOffTurn": "It isn't this actor's turn. Using this will spend its reaction.",
+  "OCCUPIED.Settings.triggers.Name": "Reaction Triggers",
+  "OCCUPIED.Settings.triggers.Hint": "Which action types apply Occupied when a token takes them out of turn. GM movement never applies it.",
+  "OCCUPIED.Settings.triggers.attack": "Attack rolls",
+  "OCCUPIED.Settings.triggers.spell": "Spells",
+  "OCCUPIED.Settings.triggers.reaction": "Reactions",
+  "OCCUPIED.Settings.triggers.movement": "Movement",
+  "OCCUPIED.Moved": "You have moved out of turn, your Reaction has been marked as used.",
+  "OCCUPIED.Settings.movementNotice.Name": "Movement Alert",
+  "OCCUPIED.Settings.movementNotice.Hint": "Shows a player a UI popup when their out of turn movement marks them as Occupied."
+}
