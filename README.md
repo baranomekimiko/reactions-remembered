@@ -1,7 +1,8 @@
 ## Installation
 Unzip to YourFoundryInstall/Data/modules
 Enable reactions-remembered in your world
-Fully restart Foundry after installing or updating, so the rules compendium is picked up.
+or
+Install via the module.json directly in Foundry.
 
 ## Dependencies
 Requires the D&D 5e system (dnd5e 5.2.0+) on Foundry V14.
