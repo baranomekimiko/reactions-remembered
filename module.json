@@ -3,6 +3,8 @@
   "title": "Reactions Remembered",
   "description": "Track spent reactions with an Occupied condition, configurable to be fully automated.",
   "version": "1.2",
+  "manifest": "https://github.com/baranomekimiko/reactions-remembered/releases/latest/download/module.json",
+  "download": "https://wide-studio.co.uk/store?product=reactions-remembered",
   "library": false,
   "compatibility": {
     "minimum": 14,
